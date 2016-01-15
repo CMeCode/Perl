@@ -1,0 +1,6 @@
+USERNAME	PASSWORD
+admin	admin
+Admin	Admin
+ADMIN	ADMIN
+Admin	admin
+admin	Admin

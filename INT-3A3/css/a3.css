@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+
+body {
+	background: #000 url("../images/concrete.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    font-family: arial,tahoma;
+	text-align: center;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.container {
+	position: relative;
+	width:625px;
+    height:450px;
+    display:inline-block;
+    overflow:hidden;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFF;
+	background-image: url("../images/frame.png");
+	background-repeat: no-repeat;
+	background-size: 625px 450px;
+	text-align: center;
+	box-shadow: 0 0 10px 0 #000000;
+}
+
+.imageTitle {
+	padding: 7px;
+	display: inline-block;
+	background: #f0f0d0;
+    box-shadow: 5px 5px 2px #888888;
+}
+
+#box {
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	background-color: #f0f0d0;
+	border: 1px solid #c09c59;
+	width: 35%;
+}
+
+#user {
+	float: right; 
+	border-width: 0px;
+	background-color: transparent;
+}
+
+#title {
+	color: #FFF;
+	text-shadow: 2px 2px #888888;
+}
+
+#pic {
+	vertical-align: middle;
+    position:absolute;
+    display:block;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    max-width: 82.5%;
+	max-height: 73.2%;
+	border: 2px solid #c09c59;
+}
